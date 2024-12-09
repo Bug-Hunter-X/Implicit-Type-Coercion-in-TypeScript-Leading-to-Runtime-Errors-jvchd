@@ -1,0 +1,3 @@
+# Implicit Type Coercion Bug in TypeScript
+
+This repository demonstrates a subtle bug in TypeScript related to implicit type coercion.  The code compiles without errors, but it produces unexpected results at runtime because of the implicit type conversion of string to number. This bug highlights the importance of explicit type checking and avoiding implicit coercions that can lead to unexpected behavior. The solution shows how to use type guards and explicit type casting to avoid runtime errors.
